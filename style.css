@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding-top:1250px;
+}
+#imgg{
+    width:250px;
+    border-radius:50%;
+    margin-bottom:50px;
+}
+#intro{
+    position:absolute;
+    height:800px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:linear-gradient(purple,blue);
+    display:table;
+    width:100%;
+    height:100%;
+    z-index:9;
+}
+.inner{
+    display:table-cell;
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+}
+#bio{
+    padding:50px;
+    text-align:center;
+}
+p{
+    max-width:450px;
+    font-size:17px;
+    margin:25px auto;
+    line-height:1.3;
+}
+.line{
+    background-color:black;
+    height:6px;
+    width:70px;
+    margin:8px auto;
+}
+.Bleh{
+    position:absolute;
+    z-index:10;
+    top:0;
+    right:30;
+    list-style:none;
+    cursor:pointer;
+}
+.REE{
+    color:#fff;
+    padding:9px;
+    display:inline;
+    float:left;
+    font-size:25;
+    font-family:fantasy;
+}
+.REE:hover{
+    background-color:deepskyblue;
+}
+#name{
+    font-family: 'Cinzel', serif;
+    font-size:40px;
+}
